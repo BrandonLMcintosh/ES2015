@@ -50,20 +50,12 @@ const removeKey = (obj,key) => {
     return obj
 }
 
-const obj = {
-    name: "Apryll",
-    age: "20", 
-    messy: false
-}
 
 /** Combine two objects and return a new object. */
 const combine = (obj1, obj2) => ({...obj1, ...obj2});
 
-const obj2 = {
-    location: 'Corvallis', 
-    state: 'Oregon'
-}
-
 /** Return a new object with a modified key and value. */
 const update = (obj, key, val) => ({...obj, [key]: value});
+
+
 
